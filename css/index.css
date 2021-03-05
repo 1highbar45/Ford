@@ -109,21 +109,36 @@ header .navbar {
     margin-top: 100px;
 }
 
-
-/* .fordCarousel .carousel-item{
+.fordCarousel .carousel-item .first-section {
     height: 630px;
-} */
-
-
-/* .fordCarousel .item-1{
-    background: url(../img/carousel-1.jpeg) no-repeat center center;
+    background-position: center;
+    background-repeat: no-repeat;
     background-size: cover;
 }
 
-.fordCarousel .item-2{
-    background: url(../img/carousel-2.webp) no-repeat center center;
-    background-size: cover;
-} */
+.fordCarousel .carousel-control-prev {
+    background: black;
+    position: absolute;
+    left: 30px;
+    font-size: 38px;
+    top: 50%;
+    width: 60px;
+    height: 60px;
+    line-height: 20px;
+    opacity: 0.5;
+}
+
+.fordCarousel .carousel-control-next {
+    background: black;
+    position: absolute;
+    right: 30px;
+    font-size: 38px;
+    top: 50%;
+    width: 60px;
+    height: 60px;
+    line-height: 20px;
+    opacity: 0.5;
+}
 
 .fordCarousel .carousel-indicators {
     bottom: 50px;
@@ -142,14 +157,21 @@ header .navbar {
     border: 2px solid white;
 }
 
-.carousel-caption button {
+.carousel-item .first-section button {
     background: #0276b3;
     font-size: 14px;
     color: white;
     letter-spacing: 2px;
     padding: 14px 30px;
     cursor: pointer;
-    margin: 0 900px 300px 0;
+    margin: 200px 0 0 109px;
+    width: 270px;
+    border-color: rgb(2, 118, 179);
+}
+
+.carousel-item .first-section button:hover {
+    background: white;
+    color: #0276b3;
 }
 
 
